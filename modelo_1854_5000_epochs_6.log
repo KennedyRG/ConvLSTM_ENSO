@@ -1,0 +1,19 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv_lstm2d (ConvLSTM2D)    (None, None, 12, 75, 16)  9856      
+                                                                 
+ conv_lstm2d_1 (ConvLSTM2D)  (None, None, 12, 75, 16)  18496     
+                                                                 
+ conv_lstm2d_2 (ConvLSTM2D)  (None, None, 12, 75, 16)  18496     
+                                                                 
+ conv_lstm2d_3 (ConvLSTM2D)  (None, None, 12, 75, 16)  18496     
+                                                                 
+ conv3d (Conv3D)             (None, None, 12, 75, 1)   17        
+                                                                 
+=================================================================
+Total params: 65,361
+Trainable params: 65,361
+Non-trainable params: 0
+_________________________________________________________________
